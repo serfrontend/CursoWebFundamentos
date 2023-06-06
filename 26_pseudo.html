@@ -1,0 +1,86 @@
+<!doctype html>
+<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+
+<head>
+    <title> pagina de exemplo estrutura basica </title>
+    <meta charset="utf-8">
+    <meta name="author" content="Daniel">
+    <meta name="description" content="descrição bacanuda">
+    <meta name="keywords" content="html5, tecnologia">
+
+    <style>
+        input[type="checkbox"] {
+            width: 100px;
+            height: 100px;
+        }
+
+        input[type="checkbox"]:checked {
+            width: 50px;
+            height: 50px;
+        }
+
+        button:disabled {
+            background: blue;
+        }
+
+        p {
+            color: red;
+        }
+
+        p:empty:before {
+            content: "paragrafo vazio nao dá, ne!";
+        }
+
+        input[type="text"]:focus {
+            background: #ccc;
+        }
+
+        input[type="text"]:read-only {
+            background: yellow;
+        }
+
+        a:focus,
+        a:hover,
+        div:focus {
+            background: red;
+        }
+
+        input::placeholder {
+            color: red
+        }
+    </style>
+</head>
+
+<body>
+
+    <label><input type="checkbox" value="sim"> Aceito o contrato</label>
+
+    <button>vai</button>
+    <button disabled>volta</button>
+
+    <p>paragrafo 1</p>
+    <p> </p>
+    <p></p>
+    <hr>
+
+    <input type="text">
+    <input type="text" value="valor inicial">
+    <input type="text" value="valor inicial" readonly>
+    <input type="text" value="valor inicial" disabled>
+    <input type="text" placeholder="valor do placeholder">
+
+
+    <ul>
+        <li><a href="#">link falso</a></li>
+        <li><a href="#">link falso</a></li>
+        <li><a href="#">link falso</a></li>
+        <li><a href="#">link falso</a></li>
+    </ul>
+
+    <div tabindex="1">div 1</div>
+    <div tabindex="2">div 2</div>
+    <div tabindex="3">div 3</div>
+</body>
+
+</html>

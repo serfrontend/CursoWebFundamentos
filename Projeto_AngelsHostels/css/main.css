@@ -1,0 +1,253 @@
+@charset "UTF-8";
+
+html{
+    font-family: sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Oxygen";
+}
+.clearfix:after, .row:after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+.maxwidth{
+    max-width: 1124px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button{
+    display: inline-block;
+    padding: .9em 2.5em;
+    background: #58c4c4;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+.button:hover{
+    background: #37a0a0;
+}
+.icon-play{
+    height: 5em;
+    display: none;
+}
+
+.icon-play img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.top-header{
+    text-align: center;
+}
+.top-header-logo{
+    margin: .5em;
+}
+
+.top-nav{
+    background: #612674;
+    text-align: center;
+}
+.top-nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.top-nav a{
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    display: block;
+}
+.top-nav a:hover{
+    background: #7c3792;
+}
+
+.top-content{
+    padding: 1em;
+    text-align: center;
+    background: #f6f6f6;
+}
+
+.top-content-title{
+    color: #612674;
+    font-size: 1.375em; /* 22 / 16 */
+    margin: 1.375em;
+}
+
+.top-content-subtitle{
+    color: #a87bb7;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.middle-content{
+    padding: 2em;
+    background: #f6f6f6;
+    text-align: center;
+}
+.middle-content-title{
+    font-size: 1.25em;
+    color: #652e78;
+    text-transform: uppercase;
+}
+.middle-content p{
+    line-height: 1.5;
+    color: #222;
+}
+.middle-content span[class^=icon]{
+    font-size: 3.5em;
+    color: #652e78;
+}
+
+.main-content{
+    padding: 2em;
+}
+.main-content p{
+    line-height: 1.2;   
+}
+
+.main-content-article{
+    margin-bottom: 3.5em
+}
+.main-content-title{
+    font-size: 1.25em;
+    color: #652e78;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-weight: normal;
+}
+
+
+
+.hidden{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    display: block;
+}
+
+.footer{
+    background:#25303e;
+	color: #83969f;
+	text-align:center;
+	padding-bottom:2em;
+}
+
+.footer-menushare{
+    background:#303d4c;	
+    padding: .5em;
+}
+
+.footer-menushare li{
+    display: inline-block;
+    margin: 0 1em;
+}
+.footer-menushare a{
+    font-size: 1.1em;
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (min-width: 48.75em){
+    
+    .top-header-logo{
+        float: left;
+    }
+    
+    .icon-play{
+        display: block;
+    }
+    
+    .top-nav{
+        background: transparent;
+        float: right;
+        margin-top: 25px;
+    }
+    
+    .top-nav ul{
+        margin: 0; 
+        padding: 0    
+    }
+    .top-nav li{
+        display: inline-block;
+    }
+    .top-nav a{
+        color: #713a84;
+    }
+    .top-nav a:hover{
+        background: #e7d9fc;
+    }
+    
+    .top-content{
+        background: #521a66;
+        color: white;
+    }
+    .top-content-title, .top-content-subtitle{
+        color: white;
+    }
+    
+    .col-1_4{
+        width: 44%;
+        margin: 3%;
+        float: left;
+    }
+    
+    .main-content-article .button{
+        float: right;
+    }
+    
+}
+
+@media screen and (min-width: 62.5em){ /* 1000 / 16 */
+    
+    .top-content{
+/*
+        background-color:#521a66;
+        background-image: url(../images/bg_topo_1198x670.jpg);
+*/
+        background: #521a66 url(../images/bg_topo_1198x670.jpg);
+        background-position: center bottom;
+        height: 20em;
+        padding-top: 17em;
+        
+    }
+}
+    
+@media screen and (min-width: 74em){
+    .top-content{
+        background-image: url(../images/bg_topo_1600x1374.jpg);
+        padding: 19em 20em 10em;
+        background-position: center top;
+    }
+    
+    .icon-play{
+        height: 7em;
+    }
+    
+    .col-1_4{
+        width: 23%;
+        margin: 1%;
+    }
+    
+    .col-1_2{
+        width: 48%;
+        margin: 1%;
+        float: left;
+    }
+    
+    .main-content-article .button{
+        float: none;
+    }
+}
+    
+    
+    
+    
+    
+    
+    
+    
+
+

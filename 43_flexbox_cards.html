@@ -1,0 +1,59 @@
+<!doctype html>
+<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+    <head>
+        <title> pagina de exemplo estrutura basica </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Daniel">
+        <meta name="description" content="descrição bacanuda">
+        <meta name="keywords" content="html5, tecnologia">
+        
+        <style>
+            .cardContainer{
+                display: flex;
+            }
+
+            .cardFlex{
+                border: 1px solid black;
+                width: 30%;
+                padding: 10px;
+                margin: 1%;
+                display: flex;
+                flex-direction: column;
+                
+            }
+            .cardFlex p{
+                flex-grow: 1;
+            }
+            .cardFlex button{
+                align-self: flex-end;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Display Flex</h2>
+        <p>Acomodar ou distribuir elementos de modo fácil</p>
+        <p>Ajuda a centralizar na vertical</p>
+        
+        <section class="cardContainer">
+            <article class="cardFlex">
+                <h3>titulo</h3>
+                <p>scxzc xv xv c zc xcvxcv,m ncbn çcklvbncvç lbknvbklç lkcvn blçkcvb nçvlkbj </p>
+                <button>Vai</button>
+            </article>
+
+            <article class="cardFlex">
+                <h3>titulo</h3>
+                <p>scxzc xv xv c asda cvxvxcv cc bv vn bn scxzc xv xv c asda cvxvxcv cc bv vn bn bn scxzc xv xv c asda cvxvxcv cc bv vn bn</p>
+                <button>Vai</button>
+            </article>
+
+            <article class="cardFlex">
+                <h3>titulo</h3>
+                <p>scxzc xv xv c vbnvbnvbn kzxclk</p>
+                <button>Vai</button>
+            </article>
+        </section>
+        
+    </body>
+</html>

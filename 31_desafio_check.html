@@ -1,0 +1,78 @@
+<!doctype html>
+<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+    <head>
+        <title> pagina de exemplo estrutura basica </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Daniel">
+        <meta name="description" content="descrição bacanuda">
+        <meta name="keywords" content="html5, tecnologia">
+        
+        <style>
+            body{
+                font-family: sans-serif;
+            }
+            
+            label{
+                margin-right: 25px;
+            }
+            
+            label span{
+                display: inline-block;
+                width: 60px;
+                height: 30px;
+                background: #ccc;
+                border-radius: 15px;
+            }
+            
+            label span:before{
+                content: '';
+                display: block;
+                background: #eee;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                margin: 5px;
+                transition: all .2s ease-in-out;
+            }
+            
+            label input:checked + span:before{
+                transform: translateX(30px);
+                background: red;
+            }
+            
+            label input:focus + span{
+                box-shadow: 0 0 0 1px red;
+            }
+
+            input{
+                opacity: 0;
+                width: 1px;
+                height: 1px;
+                overflow: hidden;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>estrutura basica</h1>
+        
+        <label>
+            <input type="checkbox">
+            <span></span>
+            Esporte
+        </label>
+        
+        <label>
+            <input type="checkbox">
+            <span></span>
+            Politica
+        </label>
+        
+        <label>
+            <input type="checkbox">
+            <span></span>
+            educação
+        </label>
+    </body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculadora</title>
+
+	<style>
+
+	body{
+		font-family: sans-serif;
+	}
+
+	#calculator{
+		width: 200px;
+        background-image: linear-gradient(#b7b7b7, #9c9c9c);
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0,0,0,.8);
+        margin: 15px auto;
+        
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 5px;
+        grid-template-rows: auto repeat(5, 40px);
+	}
+		
+
+	button{
+		padding: .25em;
+	}
+
+	#display{
+		padding: 10px;
+        font-size: 1.4em;
+        text-align: right;
+        background-image: linear-gradient(#c5c5c5, #e0e0e0);
+        box-shadow: inset 3px 2px 0 white;
+        margin-bottom: 15px;
+        
+        grid-column: 1 / -1;
+	}
+
+	.mais{
+		background-color: #adadad;
+        grid-row: 5 / 7;
+        grid-column: 4 / 5;
+        
+	}
+
+	.zero{
+		background-color: #adadad;
+        grid-column: 1 / 3;
+	}
+
+	</style>
+
+</head>
+<body>
+
+	<div id="calculator">
+		<div id="display">0</div>
+		
+		<button>AC</button> <button>%</button> <button>x</button> <button>/</button> 
+		<button>7</button> <button>8</button> <button>9</button> <button>=</button>
+		<button>4</button> <button>5</button> <button>6</button>  <button>-</button> 
+		<button>1</button> <button>2</button> <button>3</button> <button class="mais">+</button>
+        <button class="zero">0</button> <button>,</button>  
+		
+	</div>
+
+<!--	<img src="https://static.webshopapp.com/shops/038765/files/063260238/geeek-bamboo-wooden-calculator-calculator.jpg" style="width: 250px">-->
+
+</body>
+</html>

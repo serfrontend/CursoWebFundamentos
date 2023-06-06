@@ -1,0 +1,40 @@
+<!doctype html>
+<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+    <head>
+        <title> pagina de exemplo estrutura basica </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Daniel">
+        <meta name="description" content="descrição bacanuda">
+        <meta name="keywords" content="html5, tecnologia">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <h1>Tag picture - imagens responsivas de verdade</h1>
+        
+        <h2>
+            Porque o que é fundamental, 
+            não precisa necessariamente ser básico
+        </h2>
+        
+        <picture>
+            
+            <source media="(min-width: 480px)" 
+                    sizes="33vw" 
+                    srcset="rwd-images/1280.jpg 1280w, 
+                            rwd-images/960.jpg 960w, 
+                            rwd-images/480.jpg 480w" >
+            <source sizes="100vw" 
+                    srcset="rwd-images/822_mob.jpg 822w, 
+                            rwd-images/640_mob.jpg 640w, 
+                            rwd-images/320_mob.jpg 320w">
+            
+            <img src="rwd-images/1280.jpg" alt="texto alternativo">
+            
+        </picture>
+        
+        <a href="https://serfrontend.com/cursos/web-fundamentos-html-css/">
+            Web Design Fundamentos: Aprenda HTML CSS e Javascript
+        </a>
+    </body>
+</html>

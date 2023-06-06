@@ -1,0 +1,137 @@
+Quando o header é aside e o aside é no header
+Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.
+
+Veja mais
+Recent Works
+descrição
+Magna sed consequat tempus
+
+Lorem ipsum dolor sit amet nisl sed nullam feugiat.
+
+descrição
+Ultricies lacinia interdum
+
+Lorem ipsum dolor sit amet nisl sed nullam feugiat.
+
+descrição
+Tortor metus commodo
+
+Lorem ipsum dolor sit amet nisl sed nullam feugiat.
+
+descrição
+Quam neque phasellus
+
+Lorem ipsum dolor sit amet nisl sed nullam feugiat.
+
+descrição
+Nunc enim commodo aliquet
+
+Lorem ipsum dolor sit amet nisl sed nullam feugiat.
+
+descrição
+Risus ornare lacinia
+
+Lorem ipsum dolor sit amet nisl sed nullam feugiat.
+
+Veja Portifolio completo
+Get in Touch
+Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.
+
+Nome 
+nome completo
+Email 
+Digite sua mensagem 
+ 
+Endereço: 1234 Somewhere Rd. Nashville, TN 00000 United States
+
+Telefone: 000-000-000
+
+E-mail: email@server.com
+
+Elements
+Text
+This is bold and this is strong. This is italic and this is emphasized. This is superscript text and this is subscript text. This is underlined and this is code: for (;;) { ... }. Finally, this is a link.
+
+titulo h1
+titulo h2
+titulo h3
+titulo h4
+titulo h5
+titulo h6
+Esta é uma citação tirada da Mozilla Developer Center.
+
+outros paragráfos
+
+According to Mozilla's website, Firefox 1.0 was released in 2004 and became a big success.
+
+Preformatado
+
+    <script>
+        alert('oi');
+    </script>
+                
+Listas
+Não ordenada
+item 1
+item 2
+item 3
+Ordenada
+item 1
+item 2
+item 3
+Alternate
+item 1
+item 2
+item 3
+icons
+ 
+Actions
+Default Default
+
+Default Default
+
+Default
+Default
+Default
+Default
+Table
+Default
+Name	Description	Price
+s
+Item One	Ante turpis integer aliquet porttitor.	29.99
+Item Two	Vis ac commodo adipiscing arcu aliquet.	19.99
+Item Three	Morbi faucibus arcu accumsan lorem.	29.99
+Item Four	Vitae integer tempus condimentum.	19.99
+Item Five	Ante turpis integer aliquet porttitor.	29.99
+Alternate
+Name	Description	Price
+100.00
+Item One	Ante turpis integer aliquet porttitor.	29.99
+Item Two	Vis ac commodo adipiscing arcu aliquet.	19.99
+Item Three	Morbi faucibus arcu accumsan lorem.	29.99
+Item Four	Vitae integer tempus condimentum.	19.99
+Item Five	Ante turpis integer aliquet porttitor.	29.99
+Buttons
+Default Default
+
+Default Default
+
+Default
+Default
+Default
+Default
+Forms
+Nome 
+ Email 
+ 
+Selecione ...
+  Baixa Prioridade  Média Prioridade  Alta Prioridade Envie-me uma cópia Sou Humano Mensagem: 
+digite uma mensagem
+  
+Imagens
+
+
+Left & Right
+ Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.
+
+Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.

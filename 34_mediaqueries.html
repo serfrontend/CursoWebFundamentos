@@ -1,0 +1,69 @@
+<!doctype html>
+<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+    <head>
+        <title> pagina de exemplo estrutura basica </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Daniel">
+        <meta name="description" content="descrição bacanuda">
+        <meta name="keywords" content="html5, tecnologia">
+        
+        <meta name="viewport" content="width=device-width">
+        
+        <style>
+            body{
+                background: yellow;
+                font-size: 16px;
+            }
+            
+            .teste{
+                background: red;
+                width: 320px;
+                height: 50px;
+            }
+            
+            .container{
+                background: white;
+                padding: 15px;
+                font-size: 24px;
+            }
+            
+            .container div{
+                background: #ccc;
+                margin-bottom: 15px;
+                height: 150px;
+                font-size: 22px;
+            }
+            
+            .clearfix::after{
+                content: ' ';
+                display: block;
+                clear: both
+            }
+            @media screen and (min-width: 400px){
+                body{
+                    background: orange;
+                }
+                
+                .container div{
+                    margin: 10px;
+                    width: calc(50% - 20px);
+                    float: left;
+                }
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1>Exemplo de media queries</h1>
+        
+        <p>Paragrafo qualquer</p>
+        
+<!--        <div class="teste"></div>-->
+        
+        <div class="container clearfix">        
+            <div> div 1 </div>
+            <div> div 2 </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,82 @@
+<!doctype html>
+<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+    <head>
+        <title> pagina de exemplo estrutura basica </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Daniel">
+        <meta name="description" content="descrição bacanuda">
+        <meta name="keywords" content="html5, tecnologia">
+        
+        <style>
+            .gridContainer{
+                width: 90%;
+                background: #ccc;
+                margin: 30px auto;
+            }
+
+            .gridItem{
+                background-color: orange;
+                padding: 15px;
+                font-family: sans-serif;
+            }
+            
+            /* GRID */
+            .gridContainer{
+                display: grid;
+                grid-template-rows: [header-start] 100px [header-end nav-start] 50px [nav-end main-start] 1fr [main-end footer-start] 50px [footer-end];
+                grid-template-columns: [col1-start] 1fr [col1-end col2-start] 1fr [col2-end col3-start] 1fr [col3-end];
+                grid-gap: 20px;
+            }
+            
+            .header{
+/*                grid-column: 1 / -1;*/
+                grid-column: col1-start / col3-end;
+                grid-row: header;
+            }
+            .nav{
+                grid-column: col1-start / col3-end;
+                grid-row: nav;
+            }
+            .aside{
+/*
+                grid-row: 2 / -1;
+                grid-column: 3 / 4;
+*/
+                grid-row: main-start / footer-end;
+                grid-column: col3-start / col3-end;
+                
+            }
+            .main{
+/*                grid-column: 1 / 3;*/
+                min-height: 200px;
+                grid-row: main;
+                grid-column: col1-start / col2-end;
+            }
+            
+            .footer{
+                background: red;
+                background: rgba(255,0,0,.5);
+                grid-row: footer;
+                grid-column: col1-start / col3-end;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h2>Grid Layout</h2>
+        
+        
+        <div class="gridContainer">
+            <header class="header gridItem">header</header>
+            <nav class="nav gridItem">nav</nav>
+            <aside class="aside gridItem">aside</aside>
+            <main class="main gridItem">
+                main
+            </main>
+            <footer class="footer gridItem">footer</footer>
+        </div>
+        
+        
+    </body>
+</html>

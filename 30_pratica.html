@@ -1,0 +1,90 @@
+<!doctype html>
+<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+    <head>
+        <title> pagina de exemplo estrutura basica </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Daniel">
+        <meta name="description" content="descrição bacanuda">
+        <meta name="keywords" content="html5, tecnologia">
+        <style>
+        
+            body{
+                font-family: sans-serif;
+            }
+            
+            a[target="_blank"]:after{
+                content: url(imagens/newWindow.png);
+                display: inline-block;
+                margin-left: 5px;                    
+            }
+            a[href$='.pdf']:before{
+                content: url(imagens/pdf-icon.gif);
+                display: inline-block;
+                margin-right: 5px;
+            }
+            
+            .chk{
+                display: inline-block;
+                border: 2px solid #bbb;
+                background: #ddd;
+                width: 15px;
+                height: 15px;
+                margin-right: 10px
+            }
+            label{
+                height: 15px;
+                display: inline-block;
+            }
+            input[type="checkbox"]{
+                width: 1px;
+                height:1px;
+                overflow: hidden;
+                visibility: hidden;
+                display: inline-block;
+                margin: 0;
+            }
+            input[type="checkbox"] + label .chk{
+                border-radius: 5px;
+            }
+            
+            input[type="checkbox"]:checked + label .chk{
+                background: #555;
+                position: relative;
+            }
+            
+            input[type="checkbox"]:checked + label .chk:before{
+                content: '';
+                display: block;
+                position: absolute;
+                top: 0px;
+                bottom: 4px;
+                left: 4px;
+                right: 4px;
+                border: 2px solid white;
+                transform: rotate(45deg);
+                border-top-color: transparent;
+                border-left-color: transparent;
+                box-sizing: border-box;
+                border-radius: 5px;
+                
+            }
+            
+        
+        </style>
+    </head>
+    <body>
+        <h1>estrutura basica</h1>
+        
+        <a href="http://serfrontend.com" target="_blank">link externo</a><br>
+        <a href="qq.pdf">download do PDF</a>
+        
+        <hr>
+        
+        <input type="checkbox" name="qq" id="chk">
+        <label for="chk">
+            <span class="chk"></span>li e aceito o contrato
+        </label>
+        
+    </body>
+</html>
